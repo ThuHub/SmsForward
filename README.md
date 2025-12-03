@@ -112,13 +112,13 @@ _安装完成后，VSCode左下角会出现一个蚂蚁头图标_
 
 ### 第一步：创建新项目
 1. 点击VSCode左下角的蚂蚁图标（PlatformIO）
-2. 点击"Open" → "PIO Home" → "New Project"
+2. 点击"QUICK ACCESS" → "Open" → "PIO Home" → "New Project"
 3. 填写项目信息：
-4. Name: SMS_Forwarder
-5. Board: 搜索框中输入"ESP32-C3"，选择"Espressif ESP32-C3-DevKitM-1"
-6. Framework: 选择"Arduino"
-7. Location: 使用默认位置
-8. 点击"Finish"按钮  
+   - Name: SMS_Forwarder
+   - Board: 搜索框中输入"ESP32-C3"，选择"Espressif ESP32-C3-DevKitM-1"
+   - Framework: 选择"Arduino"
+   - Location: 使用默认位置
+4. 点击"Finish"按钮  
 _等待项目创建完成（会自动下载相关文件，需要几分钟）_
 
 ### 第二步：配置项目文件
