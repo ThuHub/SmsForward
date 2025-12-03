@@ -1,7 +1,5 @@
 # SmsForward
 
----
-
 # 一、项目概述
 
 本项目使用ESP32 C3 SuperMini开发板配合搭载中移物联ML307A-GSLN Cat.1模块的**核心板**，使用DAPlink作为调试和烧录工具，VSCode + PlatformIO作为开发环境，实现短信自动转发到企业微信机器人的功能。  
