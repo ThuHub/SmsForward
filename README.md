@@ -22,7 +22,7 @@
 | 7  | USB Type-C数据线         | 1条  |   /    |  DAPlink连接电脑 |  
 
 ### 2. 设备引脚说明：
-#### [ESP32 C3 SuperMini](image\ESP32C3.png)引脚：
+#### ![ESP32 C3 SuperMini](./image/ESP32C3.png)引脚：
 - 5V：5V电源输入
 - GND：接地
 - GPIO4：SWDIO接口
@@ -32,13 +32,13 @@
 - GPIO20：串口接收
 - GPIO21：串口发送  
 
-#### [ML307A-GSLN核心板](image\ML307R.png)引脚：
+#### ![ML307A-GSLN核心板](./image/ML307R.png)引脚：
 - VIN：电源输入（5V-16V）
 - GND：接地
 - TX：串口发送
 - RX：串口接收
 
-#### [DAPlink](image\DAPlink.jpg)引脚：
+#### ![DAPlink](./image/DAPlink.jpg)引脚：
 - 5V：5V电源输出
 - GND：接地
 - SWDIO：SWD数据线
