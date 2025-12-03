@@ -22,8 +22,7 @@
 | 7  | USB Type-C数据线         | 1条  |   /    |  DAPlink连接电脑 |  
 
 ### 2. 设备引脚说明：
-#### ESP32 C3 SuperMini引脚：
-- 3.3V：3.3V电源输出
+#### [ESP32 C3 SuperMini](image\ESP32C3.png)引脚：
 - 5V：5V电源输入
 - GND：接地
 - GPIO4：SWDIO接口
@@ -33,15 +32,14 @@
 - GPIO20：串口接收
 - GPIO21：串口发送  
 
-#### ML307A-GSLN核心板引脚：
-- VCC：电源输入（5V-16V）
+#### [ML307A-GSLN核心板](image\ML307R.png)引脚：
+- VIN：电源输入（5V-16V）
 - GND：接地
 - TX：串口发送
 - RX：串口接收
-- ~~PWRKEY：电源键（可选）~~
 
-#### DAPlink引脚：
-- 3.3V：3.3V电源输出
+#### [DAPlink](image\DAPlink.jpg)引脚：
+- 5V：5V电源输出
 - GND：接地
 - SWDIO：SWD数据线
 - SWCLK：SWD时钟线
@@ -51,7 +49,7 @@
 # 三、硬件连接步骤
 
 ### 第一步：连接DAPlink与ESP32 C3
-1. 使用杜邦线连接DAPlink的3.3V引脚到ESP32 C3的3.3V引脚
+1. 连接DAPlink的5V引脚到ESP32 C3的5V引脚
 2. 连接DAPlink的GND引脚到ESP32 C3的GND引脚
 3. 连接DAPlink的SWDIO引脚到ESP32 C3的GPIO4引脚
 4. 连接DAPlink的SWCLK引脚到ESP32 C3的GPIO5引脚
@@ -59,11 +57,10 @@
 6. 连接DAPlink的RX引脚到ESP32 C3的GPIO21引脚
 
 ### 第二步：连接ESP32 C3与ML307A核心板
-1. 连接ESP32 C3的GPIO6引脚到ML307A模块的TX引脚
-2. 连接ESP32 C3的GPIO7引脚到ML307A模块的RX引脚
-3. 连接ESP32 C3的5V引脚到LDO稳压器的输入端
-4. 连接LDO稳压器的输出端（调整为4.0V）到ML307A模块的VCC引脚
-5. 连接ESP32 C3的GND引脚到ML307A模块的GND引脚
+1. 连接ESP32 C3的GPIO6引脚到ML307A核心板的TX引脚
+2. 连接ESP32 C3的GPIO7引脚到ML307A核心板的RX引脚
+3. 连接ESP32 C3的5V引脚到ML307A核心板的VIN引脚
+4. 连接ESP32 C3的GND引脚到ML307A核心板的GND引脚
 
 ### 第三步：连接电源
 1. 用USB Type-C连接DAPlink到电脑
